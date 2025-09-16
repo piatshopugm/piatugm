@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIATUGM - Inovasi branding & Desa</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-white text-gray-800">
+    <!-- Header & Navbar -->
+    <header class="bg-white/80 backdrop-blur-md fixed top-0 left-0 right-0 z-50 shadow-sm">
+      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#beranda" class="text-2xl font-bold text-blue-900"> PIAT UGM </a>
+        <nav class="hidden md:flex items-center space-x-8">
+          <a href="#beranda" class="nav-link text-gray-600 hover:text-blue-900 transition-colors duration-300">Beranda</a>
+          <a href="#profil" class="nav-link text-gray-600 hover:text-blue-900 transition-colors duration-300">Tentang Kami</a>
+          <a href="#produk" class="nav-link text-gray-600 hover:text-blue-900 transition-colors duration-300">Produk</a>
+          <a href="#services" class="nav-link text-gray-600 hover:text-blue-900 transition-colors duration-300">Layanan</a>
+          <a href="#jasa" class="nav-link text-gray-600 hover:text-blue-900 transition-colors duration-300">Layanan Jasa</a>
+          <a href="#kontak" class="nav-link text-gray-600 hover:text-blue-900 transition-colors duration-300">Kontak</a>
+        </nav>
+        <button id="mobile-menu-button" class="md:hidden">
+          <i data-lucide="menu" class="h-6 w-6"></i>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+        <a href="#beranda" class="block py-2 text-gray-600 hover:text-blue-900">Beranda</a>
+        <a href="#profil" class="block py-2 text-gray-600 hover:text-blue-900">Tentang Kami</a>
+        <a href="#produk" class="block py-2 text-gray-600 hover:text-blue-900">Produk</a>
+        <a href="#services" class="block py-2 text-gray-600 hover:text-blue-900">Layanan</a>
+        <a href="#jasa" class="block py-2 text-gray-600 hover:text-blue-900">Layanan Jasa</a>
+        <a href="#kontak" class="block py-2 text-gray-600 hover:text-blue-900">Kontak</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Section Beranda (Hero) -->
+      <section id="beranda" class="min-h-screen flex items-center pt-20 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+          <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-bold text-blue-900 leading-tight mb-4 scroll-animate">Pusat Inovasi Agroteknologi</h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-8 scroll-animate" style="transition-delay: 150ms">Memperkenalkan proses pertanian, perkebunan, peternakan, perikanan, dan pengelolaan limbah.</p>
+            <a
+              href="#profil"
+              class="bg-blue-800 text-white font-semibold py-3 px-8 rounded-full hover:bg-blue-900 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 scroll-animate"
+              style="transition-delay: 300ms"
+            >
+              Profil Kami
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Profil -->
+      <section id="profil" class="py-20">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-blue-900 scroll-animate">Profil Perusahaan</h2>
+            <p class="text-gray-600 mt-2 max-w-2xl mx-auto scroll-animate" style="transition-delay: 150ms">Mengenal lebih dekat visi, misi, dan nilai-nilai yang kami anut.</p>
+          </div>
+          <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-12 bg-white p-8 md:p-12 rounded-xl shadow-lg border border-gray-100 scroll-animate">
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+              <img src="images/ugm.png" alt="Logo PIAT UGM" class="h-32 w-32 rounded-full object-cover" />
+            </div>
+            <!-- Deskripsi -->
+            <div>
+              <h3 class="text-2xl font-semibold text-gray-800 mb-4">Tentang PIAT UGM</h3>
+              <p class="text-gray-600 mb-4">
+                Pusat Inovasi Agroteknologi Universitas Gadjah Mada (PIAT UGM), yang berdiri sejak 1975 dengan nama awal Kebun Pendidikan, Penelitian dan Pengembangan Pertanian (KP4), mengalami transformasi pada tahun 2015 menjadi PIAT UGM
+                dan dikelola secara profesional untuk mengembangkan inovasi pertanian berbasis integrated farming da circular economy. Dengan fasilitas yang memadal, PIAT UGM membangun ekosistem pertanian terintegrasi yang terus pengolahan
+                Derkembang menjadi circular farming, di mana sistem produksi hewan (sapi, kambing, ayam, dan perikanan) saling hasil pertanian dan limbah menjadi produk turunan yang bernilai jual tinggi. Ketiga aspek tersebut membentuk
+                terkoneksi dengan sistem produksi tanaman (sayuran, padi, dan ban biofarmaka), serta terhubung dengan De Sebuah ekosistem yang saling mendukung dan berproses secara sirkular, menciptakan keberlanjutan baik dari sisi proses
+                maupun bisnis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Produk -->
+      <section id="produk" class="py-20">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-blue-900 scroll-animate">Produk Unggulan Kami</h2>
+          </div>
+          <!-- Kartu produk sekarang ditulis langsung di HTML -->
+          <div id="product-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+            <!-- Produk 1 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate">
+              <img src="images/gamamilk.jpg" alt="Foto Produk 1" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">Gama Milk</h3>
+              </div>
+            </div>
+            <!-- Produk 2 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate" style="transition-delay: 100ms">
+              <img src="images/gamalbf.jpg" alt="Foto Produk 2" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">Gama LBF</h3>
+              </div>
+            </div>
+            <!-- Produk 3 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate" style="transition-delay: 200ms">
+              <img src="images/getuk.jpg" alt="Foto Produk 3" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">Stickie</h3>
+              </div>
+            </div>
+            <!-- Produk 4 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate" style="transition-delay: 300ms">
+              <img src="images/gilegras.jpg" alt="Foto Produk 4" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">Gile Grass</h3>
+              </div>
+            </div>
+            <!-- Produk 5 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate">
+              <img src="images/markisweet.jpg" alt="Foto Produk 5" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">Marki Sweet</h3>
+              </div>
+            </div>
+            <!-- Produk 6 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate" style="transition-delay: 100ms">
+              <img src="images/singkongku.jpg" alt="Foto Produk 6" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">Singkongku</h3>
+              </div>
+            </div>
+            <!-- Produk 7 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate" style="transition-delay: 200ms">
+              <img src="images/sususegar.jpg" alt="Foto Produk 7" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">Susu Segar PIAT</h3>
+              </div>
+            </div>
+            <!-- Produk 8 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate" style="transition-delay: 300ms">
+              <img src="images/uwuh.jpg" alt="Foto Produk 8" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">Wedang uwuh</h3>
+              </div>
+            </div>
+            <!-- Produk 9 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate">
+              <img src="images/madu.jpg" alt="Foto Produk 9" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">Madu Beepollen</h3>
+              </div>
+            </div>
+            <!-- Produk 10 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate" style="transition-delay: 100ms">
+              <img src="images/singkong.jpg" alt="Foto Produk 10" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">GeTUKKU</h3>
+              </div>
+            </div>
+            <!-- Produk 11 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate" style="transition-delay: 200ms">
+              <img src="images/bera.jpg" alt="Foto Produk 11" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">Beras Sri Kencana Gamagora</h3>
+              </div>
+            </div>
+            <!-- Produk 12 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 overflow-hidden scroll-animate" style="transition-delay: 300ms">
+              <img src="images/benih.jpg" alt="Foto Produk 12" class="w-full h-40 sm:h-48 object-cover" />
+              <div class="p-4">
+                <h3 class="text-md sm:text-lg font-semibold mb-1 text-gray-800 truncate">Benih Padi Gamagora</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Services -->
+      <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-blue-900 scroll-animate">Layanan Sewa Venue</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service Card 1 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden">
+              <img src="images/embung.jpg" alt="Layanan Konsultasi Branding" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">Embung PIAT</h3>
+              </div>
+            </div>
+            <!-- Service Card 2 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden" style="transition-delay: 150ms">
+              <img src="images/area kemah.jpg" alt="Layanan Manajemen Media Sosial" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">Area Kemah</h3>
+              </div>
+            </div>
+            <!-- Service Card 3 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden" style="transition-delay: 300ms">
+              <img src="images/ikan.jpg" alt="Layanan Fotografi & Videografi" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">Area Perikanan</h3>
+              </div>
+            </div>
+            <!-- Service Card 4 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden">
+              <img src="images/pendopo.jpg" alt="Layanan Pembuatan Konten" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">Pawon Semar dan Pendopo</h3>
+              </div>
+            </div>
+            <!-- Service Card 5 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden" style="transition-delay: 150ms">
+              <img src="images/pendopo1.jpg" alt="Layanan SEO & SEM" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">Edu Garden</h3>
+              </div>
+            </div>
+            <!-- Service Card 6 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden" style="transition-delay: 300ms">
+              <img src="images/sewa rusun.jpg" alt="Layanan Pengembangan Website" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">Aula Rusun</h3>
+              </div>
+            </div>
+            <!-- Service Card 7 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden" style="transition-delay: 300ms">
+              <img src="images/meeting.jpg" alt="Layanan Pengembangan Website" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">Ruang Meeting</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Layanan Jasa -->
+      <section id="jasa" class="py-20">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-blue-900 scroll-animate">Layanan Jasa Agroedutainment</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden">
+              <img src="images/bgdes.jpg" alt="Layanan Branding Strategis" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">PIAT Visit</h3>
+                <p class="text-gray-600 text-sm">Kegiatan mengeksplorasi tiga bidang di piat ugm dengan metode wallking tour. fasilitas yang didapatkan meliputi:
+                  - Tour Leader / Tour Guide
+                  - Refreshment (untuk peserta lebih dari 30) 
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden" style="transition-delay: 150ms">
+              <img src="images/bgdes1.jpg" alt="Pemasaran Digital" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">PIAT Action</h3>
+                <p class="text-gray-600 text-sm">
+                  Kegiatan mengeksplorasi bidang di piat ugm dengan metode wallking tour dan melakukan hands on, diantaranya<br />- Pembuatan pupuk organik cair<br />- Menanam tanaman<br />
+                  - Membuat eco enzyme<br />
+                  - Membuat pestisida nabati<br />
+                  - Pengolahan susu<br />
+                  - Membuat Es Krim
+                </p>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden" style="transition-delay: 300ms">
+              <img src="images/bgdes2.jpg" alt="Produksi Konten Kreatif" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">Research Camp</h3>
+                <p class="text-gray-600 text-sm">
+                  Kegiatan edukasi lapangan di piat ugm dengan metode kunjungan dan perkemahan. Peserta akan mengunjungi bidang bidang yang ada di piat ugm, melakukan observasi, wawancara, dan berkemah di edu garden piat ugm.
+                </p>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden">
+              <img src="images/bgdes3.jpg" alt="Layanan Branding Strategis" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">Training</h3>
+                <p class="text-gray-600 text-sm">Kegiatan pelatihan pada bidang serta topik tertentu yang ada di piat ugm dengan pendampingan secara profesional.</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 border border-gray-100 scroll-animate overflow-hidden">
+              <img src="images/bgdes5.jpg" alt="Layanan Branding Strategis" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2 text-gray-800">Field School</h3>
+                <p class="text-gray-600 text-sm">Kegiatan pembelajaran berbais praktik sesuai dengan kurikulum yang dilakukan di luar lingkungan sekolah atau kampus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Kontak -->
+      <section id="kontak" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-blue-900 scroll-animate">Hubungi Kami</h2>
+            <p class="text-gray-600 mt-2 max-w-2xl mx-auto scroll-animate" style="transition-delay: 150ms">Terhubung dengan kami melalui platform di bawah ini.</p>
+          </div>
+          <div class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg border border-gray-100 scroll-animate">
+            <div class="space-y-6">
+              <!-- Instagram 1 -->
+              <a href="https://www.instagram.com/piat.ugm?igsh=NGluenJyeWVic2ww" target="_blank" rel="noopener noreferrer" class="flex items-center group text-lg">
+                <i class="bi bi-instagram text-2xl text-blue-800 mr-4 w-8 text-center"></i>
+                <span class="text-gray-700 group-hover:text-blue-900 transition-colors">@piat.ugm</span>
+              </a>
+              <!-- Instagram 2 -->
+              <a href="https://www.instagram.com/piatshop?igsh=NGNzM2IxNGxnNjlx" target="_blank" rel="noopener noreferrer" class="flex items-center group text-lg">
+                <i class="bi bi-instagram text-2xl text-blue-800 mr-4 w-8 text-center"></i>
+                <span class="text-gray-700 group-hover:text-blue-900 transition-colors">@piatshop</span>
+              </a>
+              <!-- E-commerce -->
+              <a href="https://id.shp.ee/egBtbhL" target="_blank" rel="noopener noreferrer" class="flex items-center group text-lg">
+                <i class="bi bi-shop text-2xl text-blue-800 mr-4 w-8 text-center"></i>
+                <span class="text-gray-700 group-hover:text-blue-900 transition-colors">PIAT SHOP UGM</span>
+              </a>
+              <!-- TikTok -->
+              <a href="https://www.tiktok.com/@nutrifresh.piatugm?_t=ZS-8zc00DVO2AD&_r=1" target="_blank" rel="noopener noreferrer" class="flex items-center group text-lg">
+                <i class="bi bi-tiktok text-2xl text-blue-800 mr-4 w-8 text-center"></i>
+                <span class="text-gray-700 group-hover:text-blue-900 transition-colors">@nutrifresh.piatugm</span>
+              </a>
+              <!-- WhatsApp -->
+              <a href="https://wa.me/6282323435436" target="_blank" rel="noopener noreferrer" class="flex items-center group text-lg">
+                <i class="bi bi-whatsapp text-2xl text-blue-800 mr-4 w-8 text-center"></i>
+                <span class="text-gray-700 group-hover:text-blue-900 transition-colors">082323435436</span>
+              </a>
+
+              <a href="https://maps.app.goo.gl/3WnHjLYEJVuXKL2P6?g_st=ipc " target="_blank" rel="noopener noreferrer" class="flex items-center group text-lg">
+                <i class="bi bi-geo-alt-fill text-2xl text-blue-800 mr-4 w-8 text-center"></i>
+                <span class="text-gray-700 group-hover:text-blue-900 transition-colors">Jl. Tanjungtirto, Tanjung, Kalitirto, Kec. Berbah, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55573</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-8">
+      <div class="container mx-auto px-6 text-center">
+        <div class="flex justify-center space-x-6 mb-4">
+          <!-- Instagram 1 -->
+          <a href="https://www.instagram.com/piat.ugm?igsh=NGluenJyeWVic2ww" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Instagram Account 1">
+            <i class="bi bi-instagram text-2xl"></i>
+          </a>
+          <!-- Instagram 2 -->
+          <a href="https://www.instagram.com/piatshop?igsh=NGNzM2IxNGxnNjlx" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Instagram Account 2">
+            <i class="bi bi-instagram text-2xl"></i>
+          </a>
+          <!-- Shopee (Bootstrap Icon) -->
+          <a href="https://id.shp.ee/egBtbhL" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Shopee">
+            <i class="bi bi-shop text-2xl"></i>
+          </a>
+          <!-- TikTok -->
+          <a href="https://www.tiktok.com/@nutrifresh.piatugm?_t=ZS-8zc00DVO2AD&_r=1" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="TikTok">
+            <i class="bi bi-tiktok text-2xl"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 PIATUGM. Seluruh hak cipta dilindungi.</p>
+      </div> 
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
